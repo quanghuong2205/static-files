@@ -1,0 +1,38 @@
+html {
+  /* primary colors */
+  --primary-color: #ff852f;
+  --secondary-color: #ed755d;
+  --third-color: #f9a599;
+  --mist-third-color: rgba(249, 165, 153, 0.2);
+
+  /* text colors */
+  --text-color: #292929;
+  --link-color: var(--primary-color);
+
+  /* basic colors */
+  --black-color: #000;
+  --white-color: #fff;
+
+  /* gray color */
+  --gray-color: #666;
+  --graphite-gray-color: #757575;
+  --light-gray: #ccc;
+  --mist-gray-color: #dce0e3;
+
+  /* status colors */
+  --info-color: #3498db;
+  --success-color: #07bc0c;
+  --warning-color: #f1c40f;
+  --error-color: #e74c3c;
+
+  /* scrollbar */
+  --scrollbar-track-bg-color: rgba(0, 0, 0, 0);
+  --scrollbar-thumb-bg-color: rgba(22, 24, 35, 0.07);
+
+  /* gradient */
+  --gradient-primary-to-third-color: linear-gradient(70.06deg, var(--primary-color) -5%, var(--third-color) 106%);
+  --gradient-secondary-to-third-color: linear-gradient(70.06deg, var(--secondary-color) -5%, var(--third-color) 106%);
+}
+
+html.dark {
+}
